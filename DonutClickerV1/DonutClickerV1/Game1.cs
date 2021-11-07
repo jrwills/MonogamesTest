@@ -48,12 +48,20 @@ namespace DonutClickerV1
                 Exit();
 
             // TODO: Add your update logic here
+            // if (Keyboard.GetState().IsKeyDown(Keys.Space))
+            // clickScore++;
+
+            MouseInput.LastMouseState = MouseInput.MouseState;
+
+            // Get the mouse state relevant for this frame
+            MouseInput.MouseState = Mouse.GetState();
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
+            var mouseState = Mouse.GetState();
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _spriteBatch.Begin();
@@ -62,6 +70,8 @@ namespace DonutClickerV1
             _spriteBatch.End();
 
             // TODO: Add your drawing code here
+            if (MouseInput.LastMouseState.LeftButton == ButtonState.Released && MouseInput.MouseState.LeftButton == ButtonState.Pressed)
+                clickScore++;
 
             base.Draw(gameTime);
         }

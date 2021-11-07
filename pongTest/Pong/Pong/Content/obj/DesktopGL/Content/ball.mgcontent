@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/John/MonogameTesting/pongTest/Pong/Pong/Content/ball.png</SourceFile>
-  <SourceTime>2021-11-06T18:44:48.470413-05:00</SourceTime>
-  <DestFile>C:/Users/John/MonogameTesting/pongTest/Pong/Pong/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2021-11-06T19:11:14.431094-05:00</DestTime>
+  <SourceFile>C:/Users/Derek/Source/Repos/MonogamesTest/pongTest/Pong/Pong/Content/ball.png</SourceFile>
+  <SourceTime>2021-11-06T20:12:49.4996612-05:00</SourceTime>
+  <DestFile>C:/Users/Derek/Source/Repos/MonogamesTest/pongTest/Pong/Pong/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2021-11-06T20:12:55.0962567-05:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2020-08-10T16:17:54-05:00</ImporterTime>
+  <ImporterTime>2020-08-10T11:17:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2020-08-10T16:17:54-05:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T11:17:54-05:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
