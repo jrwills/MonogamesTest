@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/John/MonogameTestingA/GeneralTesting/GeneralTesting/GeneralTesting/Content/filename.spritefont","C:/Users/John/MonogameTestingA/GeneralTesting/GeneralTesting/GeneralTesting/Content/bin/DesktopGL/Content/filename.xnb","LocalizedFontProcessor","SpriteFontContent",2426,956,0.1794953
+"C:/Users/John/MonogameTestingA/GeneralTesting/GeneralTesting/GeneralTesting/Content/TestSprite.png","C:/Users/John/MonogameTestingA/GeneralTesting/GeneralTesting/GeneralTesting/Content/bin/DesktopGL/Content/TestSprite.xnb","TextureProcessor","Texture2DContent",1908,262229,0.0141436

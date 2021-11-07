@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DonutClickerV1",
+    "\\pongTest"
   ],
-  "SelectedNode": "\\DonutClickerV1.sln",
+  "SelectedNode": "\\DonutClickerV1\\DonutClickerV1.sln",
   "PreviewInSolutionExplorer": false
 }

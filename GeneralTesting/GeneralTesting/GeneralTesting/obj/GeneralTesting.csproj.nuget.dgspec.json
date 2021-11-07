@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John\\MonogameTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj": {}
+    "C:\\Users\\John\\MonogameTestingA\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John\\MonogameTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj": {
+    "C:\\Users\\John\\MonogameTestingA\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\MonogameTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj",
+        "projectUniqueName": "C:\\Users\\John\\MonogameTestingA\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj",
         "projectName": "GeneralTesting",
-        "projectPath": "C:\\Users\\John\\MonogameTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj",
+        "projectPath": "C:\\Users\\John\\MonogameTestingA\\GeneralTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\MonogameTesting\\GeneralTesting\\GeneralTesting\\GeneralTesting\\obj\\",
+        "outputPath": "C:\\Users\\John\\MonogameTestingA\\GeneralTesting\\GeneralTesting\\GeneralTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
