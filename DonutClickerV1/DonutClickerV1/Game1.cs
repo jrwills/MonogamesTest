@@ -8,8 +8,13 @@ namespace DonutClickerV1
     {
 
         Texture2D donutTexture;
+        Texture2D bankTexture;
+
         Vector2 mainDonutPos;
-        Vector2 scaling; //idk bout this one
+        Vector2 bankPos;
+
+        Vector2 scalingDonut; //idk bout this one
+        Vector2 scalingBank;
 
         private SpriteFont font; //For the "Score :"
         private int clickScore = 0; //initially zero
@@ -27,8 +32,11 @@ namespace DonutClickerV1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            mainDonutPos = new Vector2(300, 160);
-            scaling = new Vector2(1f, 1f);
+            mainDonutPos = new Vector2(350, 150); //300, 160 original
+            scalingBank = new Vector2(3f, 3f);
+
+            bankPos = new Vector2(450,100);
+            scalingDonut = new Vector2(1f, 1f);
 
             base.Initialize();
         }
@@ -39,6 +47,7 @@ namespace DonutClickerV1
 
             // TODO: use this.Content to load your game content here
             donutTexture = Content.Load<Texture2D>("DonutSprite2"); //argh
+            bankTexture = Content.Load<Texture2D>("BankSprite");
             font = Content.Load<SpriteFont>("Score"); //Score = name of file
         }
 
@@ -65,12 +74,15 @@ namespace DonutClickerV1
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _spriteBatch.Begin();
-            _spriteBatch.Draw(donutTexture, mainDonutPos, null, Color.White, 0f, Vector2.Zero, scaling, SpriteEffects.None, 0f); //This sucks
+            _spriteBatch.Draw(donutTexture, mainDonutPos, null, Color.White, 0f, Vector2.Zero, scalingDonut, SpriteEffects.None, 0f); //This sucks
+            _spriteBatch.Draw(bankTexture, bankPos, null, Color.White, 0f, Vector2.Zero, scalingBank, SpriteEffects.None, 0f); //This sucks too
             _spriteBatch.DrawString(font, "Score: " + clickScore, new Vector2(0, 0), Color.Black);
             _spriteBatch.End();
 
             // TODO: Add your drawing code here
-            if (MouseInput.LastMouseState.LeftButton == ButtonState.Released && MouseInput.MouseState.LeftButton == ButtonState.Pressed)
+            if (MouseInput.LastMouseState.LeftButton == ButtonState.Released && MouseInput.MouseState.LeftButton == ButtonState.Pressed && 
+                    MouseInput.MouseState.X >= 150 && MouseInput.MouseState.X <= 450 &&
+                        MouseInput.MouseState.Y >= 80 && MouseInput.MouseState.Y <= 240)
                 clickScore++;
 
             base.Draw(gameTime);

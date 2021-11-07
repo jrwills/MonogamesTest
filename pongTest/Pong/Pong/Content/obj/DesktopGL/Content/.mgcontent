@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Derek/Source/Repos/MonogamesTest/pongTest/Pong/Pong/Content/ball.png</File>
+    <File>C:/Users/John/MonogameTestingA/pongTest/Pong/Pong/Content/ball.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
