@@ -58,7 +58,7 @@ namespace DonutClickerV1
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(donutTexture, mainDonutPos, null, Color.White, 0f, Vector2.Zero, scaling, SpriteEffects.None, 0f); //This sucks
-            _spriteBatch.DrawString(font, "a", new Vector2(0, 0), Color.Black);
+            _spriteBatch.DrawString(font, "Score: " + clickScore, new Vector2(0, 0), Color.Black);
             _spriteBatch.End();
 
             // TODO: Add your drawing code here

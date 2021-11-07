@@ -1,4 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/DonutSprite.png","C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/bin/DesktopGL/Content/DonutSprite.xnb","TextureProcessor","Texture2DContent",257,1109,0.0981336
 "C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/DonutSprite2.png","C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/bin/DesktopGL/Content/DonutSprite2.xnb","TextureProcessor","Texture2DContent",1277,65621,0.1042048
-"C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/Score.spritefont","C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/bin/DesktopGL/Content/Score.xnb","LocalizedFontProcessor","SpriteFontContent",2426,1052,0.1654772
+"C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/Score.spritefont","C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/bin/DesktopGL/Content/Score.xnb","LocalizedFontProcessor","SpriteFontContent",2473,70690,0.1724903
