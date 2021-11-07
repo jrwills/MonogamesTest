@@ -78,3 +78,4 @@ C:\Users\John\MonogameTestingA\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreap
 C:\Users\John\MonogameTestingA\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp3.1\DonutClickerV1.pdb
 C:\Users\John\MonogameTestingA\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp3.1\DonutClickerV1.genruntimeconfig.cache
 C:\Users\John\MonogameTestingA\DonutClickerV1\DonutClickerV1\bin\Debug\netcoreapp3.1\Content\BankSprite.xnb
+C:\Users\John\MonogameTestingA\DonutClickerV1\DonutClickerV1\bin\Debug\netcoreapp3.1\Content\PoliceSprite.xnb
