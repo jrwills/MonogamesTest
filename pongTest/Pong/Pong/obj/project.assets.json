@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\pongTest\\Pong\\Pong\\Pong.csproj",
+      "projectUniqueName": "C:\\Users\\John\\MonogameTesting\\pongTest\\Pong\\Pong\\Pong.csproj",
       "projectName": "Pong",
-      "projectPath": "C:\\Users\\John\\pongTest\\Pong\\Pong\\Pong.csproj",
+      "projectPath": "C:\\Users\\John\\MonogameTesting\\pongTest\\Pong\\Pong\\Pong.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\pongTest\\Pong\\Pong\\obj\\",
+      "outputPath": "C:\\Users\\John\\MonogameTesting\\pongTest\\Pong\\Pong\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
