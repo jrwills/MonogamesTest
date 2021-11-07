@@ -8,9 +8,11 @@
     <File>C:/Users/John/MonogameTestingA/DonutClickerV1/DonutClickerV1/Content/DonutSprite.png</File>
     <File>C:/Users/John/MonogameTestingA/DonutClickerV1/DonutClickerV1/Content/DonutSprite2.png</File>
     <File>C:/Users/John/MonogameTestingA/DonutClickerV1/DonutClickerV1/Content/PoliceSprite.png</File>
+    <File>C:/Users/John/MonogameTestingA/DonutClickerV1/DonutClickerV1/Content/Purchases.spritefont</File>
     <File>C:/Users/John/MonogameTestingA/DonutClickerV1/DonutClickerV1/Content/Score.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

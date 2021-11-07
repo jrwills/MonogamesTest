@@ -61,6 +61,13 @@
 /processorParam:TextureFormat=Color
 /build:PoliceSprite.png
 
+#begin Purchases.spritefont
+/importer:FontDescriptionImporter
+/processor:LocalizedFontProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Purchases.spritefont
+
 #begin Score.spritefont
 /importer:FontDescriptionImporter
 /processor:LocalizedFontProcessor

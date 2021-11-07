@@ -22,6 +22,9 @@ namespace DonutClickerV1
         private SpriteFont font; //For the "Score :"
         private int clickScore = 0; //initially zero
 
+        private SpriteFont purchases;
+        private string text = "policeman purchased!";
+
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
@@ -56,6 +59,7 @@ namespace DonutClickerV1
             bankTexture = Content.Load<Texture2D>("BankSprite");
             policeTexture = Content.Load<Texture2D>("PoliceSprite");
             font = Content.Load<SpriteFont>("Score"); //Score = name of file
+            purchases = Content.Load<SpriteFont>("Purchases");
         }
 
         protected override void Update(GameTime gameTime)
@@ -73,7 +77,15 @@ namespace DonutClickerV1
             // Get the mouse state relevant for this frame
             MouseInput.MouseState = Mouse.GetState();
 
-            //if (clickScore == 10 && MouseInput.MouseState.LeftButton == ButtonState.Pressed)
+            if (clickScore >= 10 && MouseInput.MouseState.RightButton == ButtonState.Pressed && MouseInput.MouseState.RightButton == ButtonState.Released)
+            {
+                _spriteBatch.Begin();
+
+
+                _spriteBatch.DrawString(font, text, new Vector2(0, 150), Color.Black);
+
+                _spriteBatch.End();
+            }
 
             base.Update(gameTime);
         }
@@ -88,6 +100,7 @@ namespace DonutClickerV1
             _spriteBatch.Draw(bankTexture, bankPos, null, Color.White, 0f, Vector2.Zero, scalingBank, SpriteEffects.None, 0f); //This sucks too
             _spriteBatch.Draw(policeTexture, policePos, null, Color.White, 0f, Vector2.Zero, scalingPolice, SpriteEffects.None, 0f); //This sucks too-er
             _spriteBatch.DrawString(font, "Score: " + clickScore, new Vector2(0, 0), Color.Black);
+            //_spriteBatch.DrawString(font, text, new Vector2(0, 400), Color.Black);
             _spriteBatch.End();
 
             // TODO: Add your drawing code here
