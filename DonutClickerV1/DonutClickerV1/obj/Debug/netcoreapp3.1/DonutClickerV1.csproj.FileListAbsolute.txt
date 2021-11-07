@@ -22,3 +22,5 @@ C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp
 C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp3.1\DonutClickerV1.dll
 C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp3.1\DonutClickerV1.pdb
 C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\obj\Debug\netcoreapp3.1\DonutClickerV1.genruntimeconfig.cache
+C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\bin\Debug\netcoreapp3.1\Content\DonutSprite2.xnb
+C:\Users\John\MonogameTesting\DonutClickerV1\DonutClickerV1\bin\Debug\netcoreapp3.1\Content\Score.xnb

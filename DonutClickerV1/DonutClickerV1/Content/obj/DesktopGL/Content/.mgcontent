@@ -5,8 +5,12 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/DonutSprite.png</File>
+    <File>C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/DonutSprite2.png</File>
+    <File>C:/Users/John/MonogameTesting/DonutClickerV1/DonutClickerV1/Content/Score.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
