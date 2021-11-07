@@ -6,6 +6,9 @@ namespace DonutClickerV1
 {
     public class Game1 : Game
     {
+
+        Texture2D donutTexture;
+
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
@@ -28,6 +31,7 @@ namespace DonutClickerV1
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            donutTexture = Content.Load<Texture2D>("DonutSprite");
         }
 
         protected override void Update(GameTime gameTime)
@@ -43,6 +47,10 @@ namespace DonutClickerV1
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            _spriteBatch.Begin();
+            _spriteBatch.Draw(donutTexture, new Vector2(0, 0), Color.White);
+            _spriteBatch.End();
 
             // TODO: Add your drawing code here
 
